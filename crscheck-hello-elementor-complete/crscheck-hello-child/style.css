@@ -1,0 +1,21 @@
+/*
+Theme Name: CRSCheck Hello Child
+Theme URI: https://crscheck.com/
+Description: CRSCheck branded child theme for Hello Elementor. Requires Hello Elementor parent theme.
+Author: CRSCheck
+Template: hello-elementor
+Version: 1.0.0
+Text Domain: crscheck-hello-child
+*/
+:root{--crs-red:#df2639;--crs-black:#15171b;--crs-paper:#fff;--crs-bg:#f7f7f9}
+body{color:var(--crs-black);background:var(--crs-bg);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:#b91c2e}a:hover{color:#841527}
+.crscheck-header{background:#15171b;color:#fff}.crscheck-header .crscheck-inner{max-width:1180px;margin:auto;min-height:76px;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.crscheck-logo{font-size:27px;font-weight:850;letter-spacing:-1px;color:white!important;text-decoration:none}.crscheck-logo span{color:#f43d50}
+.crscheck-header nav{display:flex;gap:19px;align-items:center;flex-wrap:wrap}.crscheck-header nav a{font-size:14px;font-weight:650;color:#fff;text-decoration:none}.crscheck-header nav a:hover{color:#ff8190}
+.crscheck-header nav a.crscheck-cta{background:#df2639;color:#fff;padding:10px 16px;border-radius:8px}
+.crscheck-footer{background:#15171b;color:#ddd;padding:35px 22px;text-align:center;font-size:13px}.crscheck-footer a{color:#fff}
+.crscheck-page-wrap{max-width:1180px;margin:38px auto 70px;padding:0 22px}.crscheck-page-wrap .entry-title{font-size:clamp(30px,4vw,48px);letter-spacing:-.035em}.crscheck-page-wrap .entry-content{background:#fff;border:1px solid #ececf0;border-radius:16px;padding:clamp(20px,3vw,40px);line-height:1.8}
+.crscheck-home-hero{background:linear-gradient(115deg,#15171b,#302329);padding:60px 22px;color:white}.crscheck-home-hero .crscheck-inner{max-width:1180px;margin:auto}.crscheck-home-hero h1{font-size:clamp(36px,5vw,60px);max-width:800px;color:white;line-height:1.12}.crscheck-home-hero p{color:#ddd;max-width:680px;font-size:18px}.crscheck-eyebrow{font-weight:800;color:#ff798a;text-transform:uppercase;letter-spacing:2px;font-size:12px}
+.crscheck-blog-card{padding:24px;background:#fff;border:1px solid #e8e8ed;border-radius:14px;margin-bottom:16px}.crscheck-blog-card h2{margin:0 0 10px;font-size:22px}.crscheck-blog-card a{text-decoration:none}
+@media(max-width:700px){.crscheck-header .crscheck-inner{align-items:flex-start}.crscheck-header nav{gap:12px}.crscheck-page-wrap{margin-top:24px}.crscheck-home-hero{padding:42px 20px}}
